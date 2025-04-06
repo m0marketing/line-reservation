@@ -25,6 +25,7 @@ const Hero = () => {
         </h1>
 
         <div className="flex gap-4 flex-col max-w-sm">
+          {/* asChild があることで、<button>タグではなく、<Link>に対して、Button の見た目だけ適用  */}
           <Button
             variant={"secondary"}
             size="lg"
